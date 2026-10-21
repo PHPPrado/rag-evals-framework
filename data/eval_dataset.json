@@ -1,0 +1,30 @@
+[
+  {
+    "id": "case-001",
+    "question": "O que é FastAPI e quais são suas principais características?",
+    "expected_answer": "FastAPI é um framework web moderno e rápido para construir APIs com Python, projetado para ser fácil de usar e de alto desempenho, com suporte nativo a OpenAPI e validação de dados via Pydantic.",
+    "reference_context": "FastAPI é um framework web moderno e rápido para construir APIs com Python. Ele foi projetado para ser fácil de usar e de alto desempenho, com suporte nativo a OpenAPI (Swagger) e validação de dados usando Pydantic, além de suporte a async/await.",
+    "tags": ["fastapi", "framework", "basico"]
+  },
+  {
+    "id": "case-002",
+    "question": "O que significa RAG em sistemas de inteligência artificial?",
+    "expected_answer": "RAG significa Retrieval-Augmented Generation, uma técnica que combina recuperação de documentos com geração de texto por LLMs para produzir respostas mais precisas e contextualizadas.",
+    "reference_context": "Retrieval-Augmented Generation (RAG) é uma técnica de inteligência artificial que combina recuperação de documentos (retrieval) com geração de texto por modelos de linguagem grandes (LLMs). A abordagem permite produzir respostas mais precisas e contextualizadas, apoiadas em fontes.",
+    "tags": ["rag", "conceitos", "basico"]
+  },
+  {
+    "id": "case-003",
+    "question": "Como funciona a avaliação de pipelines de RAG?",
+    "expected_answer": "A avaliação de pipelines de RAG mede a qualidade das respostas usando métricas como acurácia, relevância semântica e fidelidade ao contexto, permitindo detectar regressões antes da produção.",
+    "reference_context": "Avaliar pipelines de RAG envolve medir a qualidade das respostas geradas. Métricas comuns incluem acurácia (comparação com a resposta esperada), relevância semântica (similaridade de embeddings) e fidelidade ao contexto (verificação de alucinações). Essas métricas permitem detectar regressões antes da produção.",
+    "tags": ["avaliacao", "metricas", "rag"]
+  },
+  {
+    "id": "case-004",
+    "question": "Quais são as boas práticas de versionamento de prompts em produção?",
+    "expected_answer": "Boas práticas incluem versionar prompts em controle de código, testar mudanças com avaliações automatizadas antes do deploy e monitorar a qualidade das respostas em produção.",
+    "reference_context": "Versionamento de prompts em produção requer disciplina: manter prompts em controle de código, executar avaliações automatizadas (evals) em pipelines de CI/CD antes do deploy, e monitorar continuamente a qualidade das respostas em produção.",
+    "tags": ["prompts", "producao", "avancado"]
+  }
+]
